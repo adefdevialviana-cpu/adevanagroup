@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { createClient } from '@supabase/supabase-js';
 
 // Inisialisasi koneksi Supabase (Gunakan URL & Anon Key dari project Supabase Anda)
-const supabaseUrl = 'YOUR_SUPABASE_URL';
-const supabaseKey = 'YOUR_SUPABASE_ANON_KEY';
+const supabaseUrl = 'https://besxzqthfnmuhddujfmh.supabase.co';
+const supabaseKey = 'sb_publishable_vMLB_JpfA22YN3s2l_fbSg_7VjxiMGA';
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 export default function App() {
